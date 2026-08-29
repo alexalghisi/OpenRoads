@@ -30,7 +30,7 @@ Please keep OSM attribution when you fork. Be kind to their tile servers.
 
 ## Author
 
-### Alghisi Alessandro Paolo
+### Alessandro Alghisi
 
 Senior Software Engineer · Cluj-Napoca, Romania
 
@@ -71,6 +71,6 @@ npm run build
 
 ## License
 
-MIT · © Alghisi Alessandro Paolo
+MIT · © Alessandro Alghisi
 
 Map data © OpenStreetMap contributors, ODbL.
