@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Drive a car on real OpenStreetMap streets worldwide. Open source. No account.",
+  "description": "Top-down driving on OpenStreetMap tiles worldwide. Public map data, no Google key, required attribution.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

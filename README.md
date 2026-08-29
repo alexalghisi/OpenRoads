@@ -1,30 +1,26 @@
 # OpenRoads
 
-Drive a car on **real streets, worldwide**. The map is
-[OpenStreetMap](https://www.openstreetmap.org/copyright) — open data, no Google
-key, no account.
+Geographic driving on public map data: a top-down vehicle on
+[OpenStreetMap](https://www.openstreetmap.org/copyright) tiles, worldwide, with
+no Google key and no account.
 
-This is not GTA photogrammetry. It is an honest top-down car on the same tiles
-you already know from OSM, with arrow keys / WASD, city warps, and optional
-geolocation. Built for a desktop, with large round buttons, because phone
-twitch games are a different sport.
+This is not photogrammetric GTA. It is honest motion on the same cartography
+the rest of the web already uses, with WASD / arrows, city warps, and optional
+geolocation. OSM attribution is required and shown.
 
 **React 19 · TypeScript (strict) · Vite 8 · Tailwind CSS 4 · Zustand · Vitest ·
 Playwright**
 
 ---
 
-## Why this exists
+## Model
 
-“Drive anywhere on Earth” is usually a $70 disc or a locked API. OpenRoads is
-the forkable version: lat/lon math in [`src/lib/geo.ts`](src/lib/geo.ts), cities
-in [`src/lib/cities.ts`](src/lib/cities.ts), tiles from
+Lat/lon and tile math live in [`src/lib/geo.ts`](src/lib/geo.ts). City seeds
+live in [`src/lib/cities.ts`](src/lib/cities.ts). Raster tiles come from
 `tile.openstreetmap.org`.
 
-Hold **↑** or **W**. Steer with ← →. Pick **Tokyo**, **Cape Town**, **Sydney**,
-or **My streets**.
-
-Please keep OSM attribution when you fork. Be kind to their tile servers.
+Hold **↑** or **W**. Steer with ← →. Warp to Tokyo, Cape Town, Sydney, or the
+browser's own coordinates.
 
 ---
 
@@ -41,11 +37,11 @@ and Logs (Mountain View).
 | -------- | --------------------------------------------------------------------------------------- |
 | GitHub   | [github.com/alexalghisi](https://github.com/alexalghisi)                                |
 | LinkedIn | [linkedin.com/in/alghisi](https://www.linkedin.com/in/alghisi)                          |
-| Email    | [alessandro@onlineparentingprograms.com](mailto:alessandro@onlineparentingprograms.com) |
+| Email    | [alexalghisi@gmail.com](mailto:alexalghisi@gmail.com)                                   |
 | Location | Cluj-Napoca, Romania · open to remote / EU / US-friendly timezones                      |
 
 **Hiring?** Open an issue, message me on LinkedIn, or email
-[alessandro@onlineparentingprograms.com](mailto:alessandro@onlineparentingprograms.com).
+[alexalghisi@gmail.com](mailto:alexalghisi@gmail.com).
 
 ---
 
