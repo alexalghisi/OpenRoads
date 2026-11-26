@@ -4,6 +4,10 @@ Geographic driving on public map data: a top-down vehicle on
 [OpenStreetMap](https://www.openstreetmap.org/copyright) tiles, worldwide, with
 no Google key and no account.
 
+**Download:** [latest release](https://github.com/alexalghisi/OpenRoads/releases/latest)
+
+![OpenRoads running](docs/preview.png)
+
 This is not photogrammetric GTA. It is honest motion on the same cartography
 the rest of the web already uses, with WASD / arrows, city warps, and optional
 geolocation. OSM attribution is required and shown.
